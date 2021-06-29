@@ -1,0 +1,66 @@
+@import url(./prciec.css);
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.awesome {
+  padding: 0 15px;
+}
+.container-awesome {
+  max-width: 1070px;
+  padding-left: 15;
+  padding-right: 15;
+  padding-top: 100;
+  padding-bottom: 109;
+  margin: auto;
+}
+.awesome-title {
+  font-family: fantasy;
+  text-align: center;
+  text-transform: uppercase;
+  size: 36px;
+  line-height: 42px;
+  margin-bottom: 25px;
+  margin-top: 100px;
+}
+.awesome-line {
+  margin: auto;
+  width: 64px;
+  border-top: 2px solid #d98943;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.awesome-subtitle {
+  font-family: fantasy;
+  text-align: center;
+  color: black;
+  size: 14px;
+}
+.awesome-elem-circle {
+  margin: auto;
+  border: 1px solid #100ce6;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.awesome-elem {
+  display: inline-block;
+  max-width: 350px;
+  inline-size: auto;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  margin-top: 67px;
+}
+.elem-title {
+  max-width: 350px;
+  text-align: center;
+}

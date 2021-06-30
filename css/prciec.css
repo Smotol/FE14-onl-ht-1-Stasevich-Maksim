@@ -1,0 +1,116 @@
+.priciec {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+.container-priciec {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.priciec-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 63px;
+}
+.head-priciec-title {
+  width: 410px;
+  line-height: 42px;
+  font-family: 'raleway', sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 36px;
+  color: #212121;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+}
+.head-priciec-line {
+  width: 64px;
+  border-bottom: 2px solid #d456;
+  margin-bottom: 32px;
+}
+.head-priciec-subtitle {
+  width: 410px;
+  line-height: 19px;
+  font-family: 'open sans', sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 14px;
+  color: #86878b;
+  margin-bottom: 63px;
+  text-transform: inherit;
+}
+.priciec-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+.priciec-items-list {
+  width: 340px;
+  text-align: center;
+  margin: 0 15px;
+}
+.priciec-items-title {
+  font-family: 'open sans', sans-serif;
+  font-weight: 700px;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
+  line-height: 27px;
+  text-transform: uppercase;
+  background-color: #212121;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  margin-bottom: 2px;
+}
+.priciec-items-price {
+  font-family: 'raleway', sans-serif;
+  font-weight: 700px;
+  font-style: normal;
+  font-size: 35px;
+  color: #fff;
+  line-height: 41px;
+  text-transform: uppercase;
+  background-color: #212121;
+  padding-top: 26px;
+  padding-bottom: 33px;
+  margin-bottom: 2px;
+}
+.priciec-items-discription {
+  font-family: 'open sans', sans-serif;
+  font-weight: 600px;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff 10%;
+  line-height: 19px;
+  text-transform: capitalize;
+  background-color: #212121;
+  padding-top: 17px;
+  padding-bottom: 14px;
+  margin-bottom: 2px;
+}
+.priciec-items-option {
+  font-family: 'open sans', sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 14px;
+  color: #86878b;
+  line-height: 19px;
+  text-transform: none;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  margin-bottom: 2px;
+}
+.priciec-items-discription {
+  transition: 0, 8ms;
+}
+.priciec-items-discription:hover {
+  background-color: rgb(233, 193, 17);
+}
+.priciec-items-link {
+  color: inherit;
+}

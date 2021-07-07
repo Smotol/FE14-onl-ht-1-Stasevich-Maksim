@@ -1,16 +1,19 @@
 @import url(./prciec.css);
-
+@import url(./coment.css);
+@import url(./frond.css);
+html {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  text-decoration: none;
 }
 .awesome {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .container-awesome {
@@ -20,26 +23,45 @@
 }
 
 .awesome-title {
-  font-family: 'fantasy' sans-serif;
   text-align: center;
-  text-transform: uppercase;
-  size: 36px;
+  font-size: 36px;
   line-height: 42px;
-  margin-bottom: 25px;
+  color: #212121;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 34px;
 }
-.awesome-line {
+.awesome-title::after {
+  content: '';
   margin: auto;
-  width: 64px;
-  border-top: 2px solid #d98943;
-  margin-bottom: 30px;
-  text-align: center;
-  margin-top: 30px;
+  width: 62px;
+  height: 2px;
+  background-color: #d98943;
+  display: block;
+  margin-top: 34px;
 }
-.awesome-subtitle {
-  font-family: 'fantasy' sans-serif;
+
+.awesome-subtitle-text {
+  font-family: 'open sans' sans-serif;
   text-align: center;
-  color: black;
   font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 67px;
+  color: #86878b;
+}
+.awesome-elem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 -15px;
+}
+.awesome-elem-items {
+  max-width: 350px;
+  text-align: center;
+  margin: 0 15px;
 }
 .awesome-elem-circle {
   margin: auto;
@@ -52,20 +74,16 @@
   align-items: center;
   justify-content: center;
 }
-.awesome-elem-h {
-  margin-top: 67px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+
+.elem-title-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 16px;
+  color: #333;
 }
-.awesome-elem {
-  display: inline-block;
-  max-width: 350px;
-  width: auto;
-  text-align: center;
-}
-.elem-title {
-  max-width: 350px;
-  align-items: flex-start;
-  text-align: center;
+.elem-text-desc {
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
 }

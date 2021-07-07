@@ -1,0 +1,112 @@
+.customers {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.container-customers {
+  max-width: 1170px;
+  padding: 0px, 15px;
+  margin: auto;
+}
+
+.customers-title {
+  margin-bottom: 34px;
+  font-family: 'raleway', sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 36px;
+  color: #212121;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.customers-title::after {
+  content: '';
+  margin: auto;
+  width: 64px;
+  height: 2px;
+  background-color: #d98943;
+  display: block;
+  margin-top: 34px;
+}
+.customers-subtitle {
+  font-family: 'raleway', sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 14px;
+  color: #212121;
+  line-height: 19px;
+  text-transform: none;
+  text-align: center;
+  margin-bottom: 67px;
+}
+.customers-coment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.customers-coment-item {
+  margin: 0px 15px;
+}
+.customers-coment-content {
+  max-width: 300px;
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  position: relative;
+  padding: 9px 20px;
+}
+.customers-coment-content::after {
+  content: '';
+  border-top: 17px solid #e2e2e2;
+  border-right: 17px solid transparent;
+  border-left: 17px solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 11%;
+}
+.customers-coment-text {
+  text-align: center;
+}
+
+.customers-coment-elem {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-around;
+}
+.customers-coment-circle {
+  width: 70px;
+  height: 70px;
+}
+.customers-coment-img {
+  margin-left: 15px;
+  background-color: #86878b;
+  border-radius: 50px;
+}
+.customers-coment-data {
+  flex-direction: column;
+  text-align: right;
+}
+
+.customers-coment-name {
+  font-family: 'raleway', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #333;
+  line-height: 27px;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+.customers-coment-position {
+  width: 60px;
+  font-family: 'raleway', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  color: #333;
+  line-height: 19px;
+  text-transform: capitalize;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}

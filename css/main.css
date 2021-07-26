@@ -1,0 +1,149 @@
+.main {
+  padding: 0 15px;
+  background-image: url(/img/city.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.main::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-main {
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 105px 0;
+  z-index: 1;
+  position: relative;
+  flex-wrap: wrap;
+}
+.main-info {
+  max-width: 550px;
+}
+.main-naim {
+}
+.main-naim-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.main-naim-it {
+  color: red;
+}
+.main-title_subtitle {
+}
+.main-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 32px 0px;
+}
+.main-title::after {
+  content: '';
+  /* margin: auto; */
+  width: 62px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin-top: 34px;
+}
+.main-subtitle {
+  z-index: 3;
+  max-width: 280px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.main-download {
+}
+.main-download-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  font-style: normal;
+  max-width: 135px;
+  display: block;
+  padding: 11px 0;
+  margin-top: 40px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-download-link:hover {
+  content: '';
+  background-color: antiquewhite;
+  color: red;
+}
+.main-login1 {
+  display: block;
+  width: 370px;
+  height: 370px;
+  background-color: #fff;
+  border-radius: 5px;
+  align-items: center;
+}
+.main-login-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main-login-title-color {
+}
+.main-login-item {
+  display: block;
+  margin: auto;
+  padding: 0 50px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  color: rgb(199, 196, 193);
+  border: none;
+  margin-top: 10px;
+}
+
+.login-name {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 2px;
+}
+.login-email {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.login-password {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  line-height: 24px;
+}
+.login-start {
+}

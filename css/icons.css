@@ -1,0 +1,57 @@
+.fa-facebook {
+  transition: 0.4s;
+}
+.fa-facebook:hover {
+  color: rgb(91, 173, 211);
+  transform: scale(2.2);
+}
+.fa-twitter-square {
+  transition: 0.4s;
+}
+
+.fa-twitter-square:hover {
+  color: red;
+  transform: scale(2.2);
+}
+.fa-google-plus-square {
+  transition: 0.4s;
+}
+.fa-google-plus-square:hover {
+  color: salmon;
+  transform: scale(2.2);
+}
+.fa-pinterest-square {
+  transition: 0.4s;
+}
+
+.fa-pinterest-square:hover {
+  color: springgreen;
+  transform: scale(2.2);
+}
+.fa-instagram-square {
+  transition: 0.4s;
+}
+.fa-instagram-square:hover {
+  color: rgb(255, 166, 0);
+  transform: scale(2.2);
+}
+.fa-cc-amazon-pay {
+  transition: 0.4s;
+}
+.fa-cc-amazon-pay:hover {
+  color: rgb(217, 255, 0);
+  transform: scale(2.2);
+}
+.fa-cc-apple-pay {
+  transition: 0.4s;
+}
+.fa-cc-apple-pay:hover {
+  color: rgb(6, 88, 6);
+  transform: scale(2.2);
+}
+.iformation {
+  color: #ffffff80;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}

@@ -1,9 +1,17 @@
 @import url(./prciec.css);
 @import url(./coment.css);
 @import url(./frond.css);
+@import url(./contact.css);
+@import url(./footer.css);
+@import url(./tabscity.css);
+@import url(./social_icons.css);
+@import url(./icons.css);
+@import url(./main.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 html {
   font-family: 'Raleway', sans-serif;
   font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 * {
   margin: 0;

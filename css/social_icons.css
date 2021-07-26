@@ -1,0 +1,33 @@
+.social-icons {
+  padding: 15px 0;
+  background-color: #f8efef;
+}
+.container-social-icons {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  display: flex;
+}
+.social-icons-info {
+  max-width: 365px;
+}
+.social-icons-info-title {
+  font-size: 20px;
+  line-height: 27px;
+  color: #333;
+}
+.social-icons-info-subtitle {
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+.social-icons-img {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  font-size: 42px;
+  color: #86878b;
+  padding-left: 130px;
+  text-decoration: none;
+}
